@@ -27,7 +27,7 @@ const CartItem = (props) => {
         <h2>{props.name}</h2>
         <h5>{props.description}</h5>
         <div className={classes.summary}>
-          <span className={classes.price}>{props.price}</span>
+          <span className={classes.price}>{`$${props.price}`}</span>
           <span className={classes.amount}>x {props.quantity}</span>
         </div>
       </div>

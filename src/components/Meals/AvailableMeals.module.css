@@ -10,6 +10,24 @@
   margin: 0;
   padding: 0;
 }
+.load {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #383838;
+  letter-spacing: 1rem;
+}
+.error {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  letter-spacing: 1rem;
+}
 
 @keyframes meals-appear {
   from {
